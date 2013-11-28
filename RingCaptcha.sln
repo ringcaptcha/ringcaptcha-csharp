@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RingCaptcha", "RingCaptcha\RingCaptcha.csproj", "{8BB4E5D3-48AE-4714-AED8-B0AD19C62395}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RingCaptchaWeb", "RingCaptchaWeb\", "{91561A86-4D5C-4380-9614-465E9A40CB15}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{8BB4E5D3-48AE-4714-AED8-B0AD19C62395}|RingCaptcha.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/RingCaptchaWeb"
+		Debug.AspNetCompiler.PhysicalPath = "RingCaptchaWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\RingCaptchaWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/RingCaptchaWeb"
+		Release.AspNetCompiler.PhysicalPath = "RingCaptchaWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\RingCaptchaWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "44324"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB4E5D3-48AE-4714-AED8-B0AD19C62395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB4E5D3-48AE-4714-AED8-B0AD19C62395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB4E5D3-48AE-4714-AED8-B0AD19C62395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB4E5D3-48AE-4714-AED8-B0AD19C62395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91561A86-4D5C-4380-9614-465E9A40CB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91561A86-4D5C-4380-9614-465E9A40CB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91561A86-4D5C-4380-9614-465E9A40CB15}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{91561A86-4D5C-4380-9614-465E9A40CB15}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
